@@ -3,47 +3,70 @@ get_header(); ?>
 
 <div id="content">
 	<section id="banner">
-		<div class="container-fluid">
+		<div class="container">
 			<div class="row">		
 				<?php putRevSlider( "banner-index" ) ?>		
 			</div>
 		</div>
 	</section>
-	<section id="atelie">
+	<section id="sobre-home">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h1 class="small title-restaurante"><span class="cor-base">Restaurante</span> Aroma e Sabor</h1>
+					<h1 class="small">Tapeçaria e reforma de estofados no Tatuapé</h1>
+					<h2>A Nobre Arte Design é uma tapeçaria de alta qualidade localizada no Tatuapé.</h2>
 				</div>
-			</div>
+			</div> <br>
 			<div class="row">
-				<div class="col-md-4 anima-a">
-					<a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria1.jpg"; ?>"/></a>
+				<div class="col-md-6 text-left">
+					<p>
+						A Nobre Arte é uma tapeçaria que está localizada no bairro do Tatuapé, e é uma 
+						empresa especializada em serviços de tapeçaria e reforma de estofados em geral.						
+					</p>
+					<p>
+						Nossa tapeçaria tem como visão de futuro ser referência em qualidade e 
+						atendimento no mercado de estofados, tapeçaria e artigos para decoração e 
+						design de interiores. 						
+					</p>
+					<p>
+						A tapeçaria Nobre Arte Design realiza uma prévia verificação do serviço de 
+						tapeçaria e reforma de estofado a ser realizado, pode ser pessoalmente ou via 
+						internet.						
+					</p>
 				</div>
-				<div class="col-md-4 anima-b">
-					<a href="<?php echo esc_url( home_url( '/' )."eventos" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria2.jpg"; ?>"/></a>
-				</div>
-				<div class="col-md-4 anima-c">
-					<a href="<?php echo esc_url( home_url( '/' )."fotos" ); ?>"><img class="e-cinza" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/categoria3.jpg"; ?>"/></a>
+				<div class="col-md-6 text-left">
+					<p>
+						Realizamos sem compromisso um orçamento detalhado dos serviços e produtos 
+						que serão utilizados na reforma do estofado e fornecemos todo o suporte de 
+						retirada e entrega na casa do cliente.						
+					</p>
+					<p>
+						A Nobre Arte Design conta com uma equipe especializada em desmontagem e 
+						montagem de estofados.						
+					</p>
+					<p>
+						Trabalhamos com os principais fornecedores do mercado de tapeçaria e 
+						executamos todas as reformas de estofados com produtos de procedência, 
+						qualidade e garantias.								
+					</p>
 				</div>
 			</div>
 		</div>
 	</section>
 	<section id="detalhes">
 		<div class="container">
-			<div class="row atelie">
-				<div class="col-md-3 anima-d">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/atelie.jpg"; ?>"/>
-				</div>
-				<div class="col-md-3 text-left anima-e">
+			<div class="row servicos">
+				<div class="col-md-4">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
 					<h4>Ateliê Culinário</h4>
 					<p>Confira todo o cardápio do Ateliê Culinário do restaurante Aroma e Sabor.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">Saiba mais</a>
 				</div>
-				<div class="col-md-3 anima-f">
-					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/eventos.jpg"; ?>"/>
+				<div class="col-md-4">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner2.jpg"; ?>"/>
 				</div>
-				<div class="col-md-3 text-left anima-g">
+				<div class="col-md-4">
+					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner3.jpg"; ?>"/>
 					<h4>Eventos</h4>
 					<p>Comemore seu evento no restaurante Aroma e Sabor, o ambiente é muito agradável.</p>
 					<a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>" class="btn-saiba-mais">Saiba mais</a>
