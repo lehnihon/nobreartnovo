@@ -58,12 +58,15 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
 		margin: 0;
 		margin-bottom: 20px;
-		font-size: 24px;
+		font-size: 22px;
 		font-weight: bold;
 	}
 
-	h2.redes{
-		color:#baad29;
+	h2.amarelo{
+		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+		font-size: 26px;
+		font-weight: bold;
+		color:#f0c402;
 	}
 
 	h4{
@@ -74,7 +77,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 
 	h5{
 		font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-		font-size:14px;
+		font-size:18px;
 		font-weight: normal;
 	}
 
@@ -115,14 +118,28 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 		-webkit-border-radius: 6px; 
 		-moz-border-radius: 6px; 
 		border-radius: 6px; 
-		background-color:#b5ab3a;
+		background-color:#404040;
 		padding:10px 45px;
 		color:white;
 		display:inline-block		
 	}
 
 	.btn-saiba-mais:hover{
-		background-color:#dfd99a;
+		background-color:#8c8c8c;
+	}
+
+	.btn-amarelo{
+		-webkit-border-radius: 6px; 
+		-moz-border-radius: 6px; 
+		border-radius: 6px; 
+		background-color:#f0c402;
+		padding:10px 45px;
+		color:#404040;
+		display:inline-block		
+	}
+
+	.btn-amarelo:hover{
+		background-color:#f6db67;
 	}
 
 	.bx-wrapper .bx-viewport{

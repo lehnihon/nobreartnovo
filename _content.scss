@@ -55,9 +55,18 @@ div#content{
 	
 	}
 
-	section#detalhes{
+	section#servicos{
+		padding-bottom:80px;	
+
+		h4,p{
+			margin: 15px 0;
+		}
+	
+	}
+
+	section#fotos-sobre{
 		padding:80px 0;	
-		background-color:#fcfcfc;
+		background-color:white;
 
 		ul{
 			list-style-type:none;
@@ -72,17 +81,21 @@ div#content{
 			}
 		}
 
-		div.atelie{
-			margin-bottom:50px;
+		img{
+			float:left;
+			border:5px solid #e8edf1;
+			margin:5px;
 		}
 
-		div.fotos-sobre{
-			img{
-				float:left;
-				border:5px solid #e5e5e5;
-				margin:5px;
-			}
-		}	
+	}
+
+	section#maps{
+		background-color:#404040;
+		color: white;
+
+		.detalhes-maps{
+			padding: 25px 0;
+		}
 	}
 
 	section#eventos{
@@ -138,138 +151,6 @@ div#content{
 		}
 	}
 
-	section#blog{
-		
-		div.menu-blog{
-			div.col-md-4{
-				a{
-					color:white;
-					display:inline-block;
-					padding:25px 80px;
-					font-family:FuturaBT, Verdana, Geneva, sans-serif;
-					font-size:20px;
-					font-weight:bold;
-				}
-			}
-			div.col-md-4:hover{
-				background-color:#dad38b !important;
-			}
-		}
-		
-		div.posts{
-			margin-top:40px;
-
-			div.paginacao{
-				.page-numbers{
-					padding:5px;
-					background-color:#ececec;
-				}
-				.current{
-					background-color:#ffc700;
-				}
-			}
-
-			article.blog{
-				text-align: left;
-				padding-bottom: 30px;
-				margin-bottom: 40px;
-
-				h1{
-					margin:20px 0;
-				}	
-
-				h1.small{
-					margin: 20px 0;
-
-					color:#baad29 !important;
-					font-weight:normal;
-
-				}
-
-				h2.entry-title{
-					margin: 20px 0;
-					a{
-						color:#baad29;
-						font-weight:normal;
-					}
-				}
-				div.entry-summary{
-					p.confira{
-						margin-top: 20px;
-
-						a{
-							font-weight: bold;
-							font-size: 12px;
-							color:#baad29;
-						}
-
-						a:hover{
-							color:#dad38b !important;
-						}
-					}
-				}
-
-			}
-		}
-
-		div.posts-single{
-
-			div.paginacao{
-				.page-numbers{
-					padding:5px;
-					background-color:#ececec;
-				}
-				.current{
-					background-color:#ffc700;
-				}
-			}
-
-			article.blog{
-				text-align: left;
-				padding-bottom: 30px;
-				margin-bottom: 40px;
-
-				h1{
-					margin:20px 0;
-				}	
-
-				h1.small{
-					margin: 20px 0;
-
-					color:#baad29 !important;
-					font-weight:normal;
-
-				}
-
-				h2.entry-title{
-					margin: 20px 0;
-					a{
-						color:#baad29;
-						font-weight:normal;
-					}
-				}
-				div.entry-summary{
-					p.confira{
-						margin-top: 20px;
-
-						a{
-							font-weight: bold;
-							font-size: 12px;
-							color:#baad29;
-						}
-
-						a:hover{
-							color:#dad38b !important;
-						}
-					}
-				}
-
-			}
-
-		}
-
-	}
-
 	section#sobre{
 		padding-bottom:40px;
 
@@ -295,17 +176,6 @@ div#content{
 		}	
 	}
 
-	section#fotos-sobre{
-		padding:25px 0;
-		background-color:#f3f2e9;
-
-		img{
-			border:5px solid white;
-		}
-
-	}
-
-
 	section#form-contato{
 		padding:25px 0;
 		background-color:#f3f2e9;
@@ -330,6 +200,7 @@ div#content{
 
 	section#redes-bot{
 		padding:80px 0;	
+		background-color:white;
 	
 		.redes_sociais_bot{
 			margin-bottom: 5px;
@@ -345,6 +216,10 @@ div#content{
 		.redes_sociais_bot li:hover{
 		    opacity: 0.6;
 		    filter: alpha(opacity=60); /* For IE8 and earlier */
+		}
+
+		.redes_sociais_bot li{
+			margin: 0 8px;
 		}
 
 		.redes_sociais_bot a{
@@ -364,21 +239,13 @@ div#content{
 
 		.redes_sociais_bot .instagram{
 			background-image: url("images/redes-bot.jpg");
-			background-position: -80px,center;
+			background-position: -87px,center;
 			background-repeat:no-repeat;
 			width:67px;
 			height:67px;
 			display:inline-block;		
 		}
 
-		.redes_sociais_bot .twitter{
-			background-image: url("images/redes-bot.jpg");
-			background-position: -160px,center;
-			background-repeat:no-repeat;
-			width:67px;
-			height:67px;
-			display:inline-block;		
-		}
 
 		.redes_sociais_bot .facebook{
 			background-image: url("images/redes-bot.jpg");

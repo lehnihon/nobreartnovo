@@ -53,73 +53,91 @@ get_header(); ?>
 			</div>
 		</div>
 	</section>
-	<section id="detalhes">
+
+	<section id="servicos">
 		<div class="container">
-			<div class="row servicos">
+			<div class="row">
 				<div class="col-md-4">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
-					<h4>Ateliê Culinário</h4>
-					<p>Confira todo o cardápio do Ateliê Culinário do restaurante Aroma e Sabor.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">Saiba mais</a>
+					<h4>Impermeabilização</h4>
+					<p>Trabalhamos com impermeabilização de sofás, colchões, poltronas e estofados.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner2.jpg"; ?>"/>
+					<h4>Reforma de Estofados</h4>
+					<p>Reforma de sofás, poltronas, cadeiras ede todos os estofados em geral.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner3.jpg"; ?>"/>
-					<h4>Eventos</h4>
-					<p>Comemore seu evento no restaurante Aroma e Sabor, o ambiente é muito agradável.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>" class="btn-saiba-mais">Saiba mais</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-7 text-left anima-h">
-					<h4>Restaurante Aroma e Sabor</h4>
-					<p class="">Somos pioneiros no sistema de refeição a quilo na cidade de São Paulo.
-						Atuamos há 26 anos, fornecendo comida caseira, num ambiente mais do que familiar.
-						<br>Tudo começou com Mama Odete e agora, já na segunda geração, o restaurante 
-						Aroma e Sabor procura manter o mesmo espírito e a mesma ideia: alimentar com 
-						qualidade a todos que nos procuram.
-
-					</p>
-					<ul>
-						<li>Visão Panorâmica para o Mosteiro São Bento e Viaduto Santa Ifigênia</li>
-						<li>Cardápio variado com sobremesas especiais todos os dias</li>
-						<li>Sistema buffet por quilo, comida brasileira, caseira</li>
-						<li>Sexta-feira o cardápio é temático, com comida japonesa e árabe</li>
-					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-saiba-mais">Confira as fotos</a>
-				</div>
-				<div class="col-md-5 text-left anima-i">
-					<h4>Fotos</h4>
-					
-					<div class="fotos-sobre row">
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 01.jpg"; ?>"/>
-						</div>
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 02.jpg"; ?>"/>
-						</div>
-					</div>
-					<div class="fotos-sobre row">	
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 03.jpg"; ?>"/>
-						</div>
-						<div class="col-md-6">
-							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/Galeria Aroma e Sabor 04.jpg"; ?>"/>
-						</div>
-					</div>
-			
+					<h4>Tapeçaria</h4>
+					<p>A Nobre Arte Design realiza todos os serviços de tapeçaria e estofamento para móveis.</p>
+					<a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 			</div>
 		</div>		
 	</section>
 
+	<section id="fotos-sobre">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 text-left">
+					<h2 class="amarelo">Tapeçaria e Reforma de Estofados no Tatuapé</h2>
+					<p class="">A Nobre Arte Desig é uma tapeçaria com vasta experiência em reforma de estofados em geral, com atendimento diferenciado e garantia em todos os serviços prestados. <br>
+					A Tapeçaria Nobre Arte Design é uma empresa especializada em reforma de todos os tipos de sofá, estofados em geral, puffs, cadeiras de sala de jantar, poltronas e também fabricamos cabeçeiras personalizadas de acordo com a sua necessidade. 
+					</p>
+					<ul>
+						<li>Reforma de estofados em geral</li>
+						<li>Tapeçaria localizada no Tatuapé</li>
+						<li>Atendimento diferenciado</li>
+						<li>Impermeabilização de estofados</li>
+					</ul>
+					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-amarelo">CONFIRA</a>
+				</div>
+				<div class="col-md-5 text-left">
+					<h4>Fotos</h4>
+					
+					<div class="row">
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
+						</div>
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
+						</div>
+					</div>
+					<div class="fotos-sobre row">	
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
+						</div>
+						<div class="col-md-6">
+							<img class="e-claro img-responsive" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
+						</div>
+					</div>
+			
+				</div>
+			</div>	
+		</div>	
+	</section>
+
 	<section id="maps">
+		<div class="container">
+			<div class="row text-left detalhes-maps">
+				<div class="col-md-12">
+					<h2 class="amarelo">Localização da Tapeçaria</h2>
+					<p>
+						Rua São Jorge, 86 - Tatuapé, São Paulo - SP
+					</p>
+					<p>
+						<strong>Telefone.: </strong>11 3938-0200 <strong>Email.: </strong>contato@nobreartedesign.com.br
+					</p>
+				</div>
+			</div>
+		</div>
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-12 videoWrapper">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467814.9804093564!2d-47.041120950597595!3d-23.64717016917304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5855caa088ef%3A0xee3fef7424d63dfc!2sR.+S%C3%A3o+Bento%2C+545+-+Centro%2C+S%C3%A3o+Paulo+-+SP%2C+01011-100!5e0!3m2!1spt-BR!2sbr!4v1449080600451" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.0003376679856!2d-46.56683158444546!3d-23.532490266413117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5ee54bb4a53b%3A0x5bfb87542ddadfac!2sR.+S%C3%A3o+Jorge%2C+86+-+Parque+S%C3%A3o+Jorge%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1463247862636" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>				
 				</div>
 			</div>			
 		</div>
