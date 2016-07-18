@@ -42,23 +42,21 @@
 								<span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
 							</button>
 							<ul class="dropdown-menu">
-							<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
-							><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+								<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Nobre Arte Design</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapeçaria"; ?>">Tapeçaria</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>">Reforma de Estofados</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."imperabilizacao"; ?>">Impermeabilização</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 							</ul>								
 						</div>
 						<nav>
 							<ul class="menu-principal clearfix">
-								<li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Aroma e Sabor</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' )."atelie-culinario" ); ?>">Ateliê Culinário</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>">Eventos</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>">Fotos</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."blog"; ?>">Blog</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."localizacao"; ?>">Localização</a></li
+								<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Nobre Arte Design</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapeçaria"; ?>">Tapeçaria</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>">Reforma de Estofados</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."imperabilizacao"; ?>">Impermeabilização</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 							</ul>
 						</nav><!-- #site-navigation -->						

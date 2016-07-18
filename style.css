@@ -206,7 +206,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
             list-style-type: none; }
             #page #header div.header-logo nav ul.menu-principal li a {
               display: inline-block;
-              padding: 10px 25px; }
+              padding: 10px 20px; }
             #page #header div.header-logo nav ul.menu-principal li a:hover {
               text-decoration: none; }
           #page #header div.header-logo nav ul.menu-principal li:hover {
@@ -402,11 +402,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#atelie div.col-md-4 {
       margin-bottom: 25px; } }
   #page #footer {
-    text-align: left;
-    color: #FFFFFF; }
+    text-align: left; }
     #page #footer div.footer-content {
       padding: 50px 0;
-      background-color: #baad29; }
+      background-color: #f0c402; }
       #page #footer div.footer-content ul {
         padding: 0;
         margin: 0;
