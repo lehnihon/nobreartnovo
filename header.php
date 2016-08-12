@@ -44,7 +44,7 @@
 							<ul class="dropdown-menu">
 								<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Nobre Arte Design</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapeçaria"; ?>">Tapeçaria</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapecaria"; ?>">Tapeçaria</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>">Reforma de Estofados</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."imperabilizacao"; ?>">Impermeabilização</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
@@ -54,7 +54,7 @@
 							<ul class="menu-principal clearfix">
 								<li><a href="<?php echo esc_url( home_url( '/' ) ); ?>">Início</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' )."sobre" ); ?>">Nobre Arte Design</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapeçaria"; ?>">Tapeçaria</a></li
+								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapecaria"; ?>">Tapeçaria</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>">Reforma de Estofados</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."imperabilizacao"; ?>">Impermeabilização</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
