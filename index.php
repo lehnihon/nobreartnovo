@@ -61,19 +61,19 @@ get_header(); ?>
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner1.jpg"; ?>"/>
 					<h4>Impermeabilização</h4>
 					<p>Trabalhamos com impermeabilização de sofás, colchões, poltronas e estofados.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."impermeabilizacao"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner2.jpg"; ?>"/>
 					<h4>Reforma de Estofados</h4>
 					<p>Reforma de sofás, poltronas, cadeiras ede todos os estofados em geral.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."atelie-culinario"; ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 				<div class="col-md-4">
 					<img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/banner3.jpg"; ?>"/>
 					<h4>Tapeçaria</h4>
 					<p>A Nobre Arte Design realiza todos os serviços de tapeçaria e estofamento para móveis.</p>
-					<a href="<?php echo esc_url( home_url( '/' ) )."eventos"; ?>" class="btn-saiba-mais">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."tapecaria"; ?>" class="btn-saiba-mais">CONFIRA</a>
 				</div>
 			</div>
 		</div>		
@@ -93,7 +93,7 @@ get_header(); ?>
 						<li>Atendimento diferenciado</li>
 						<li>Impermeabilização de estofados</li>
 					</ul>
-					<a href="<?php echo esc_url( home_url( '/' ) )."fotos"; ?>" class="btn-amarelo">CONFIRA</a>
+					<a href="<?php echo esc_url( home_url( '/' ) )."sobre"; ?>" class="btn-amarelo">CONFIRA</a>
 				</div>
 				<div class="col-md-5 text-left">
 					<h4>Fotos</h4>
