@@ -69,7 +69,7 @@
 		}
 
     	nav{
-    		font-family: FuturaBT, Verdana, Geneva, sans-serif;
+    		font-family: Verdana, Geneva, sans-serif;
     		font-size:16px;
 
     		ul.menu-principal{
@@ -79,10 +79,9 @@
 				li{
 					float:left;
 					list-style-type: none;
-					
 					a{
 						display: inline-block;
-						padding:10px 20px;
+						padding:10px 18px;
 					}
 					a:hover{
 						text-decoration: none;
@@ -91,7 +90,7 @@
 
 				li:hover{
 
-					background-color:#f2f1df;
+					border-bottom:2px solid #f0c402;
 				}
     		}
     	}
