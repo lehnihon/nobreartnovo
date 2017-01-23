@@ -25,7 +25,7 @@
 	<header id="header">
 		<div class="container">
 			<div class="row header-logo">
-				<div class="col-md-3">
+				<div class="col-md-3" style="padding-left:0px">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img class="e-claro" src="<?php echo dirname( get_bloginfo('stylesheet_url'))."/images/logo.jpg"; ?>"/></a>
 				</div>
 				<div class="col-md-9 logo-center">
@@ -57,7 +57,7 @@
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."tapecaria"; ?>">Tapeçaria</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."reforma-de-estofados"; ?>">Reforma de Estofados</a></li
 								><li><a href="<?php echo esc_url( home_url( '/' ) )."impermeabilizacao"; ?>">Impermeabilização</a></li
-								><li><a href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
+								><li><a style="padding-right:0px" href="<?php echo esc_url( home_url( '/' ) )."contato"; ?>">Contato</a></li>
 							</ul>
 						</nav><!-- #site-navigation -->						
 					</div>
