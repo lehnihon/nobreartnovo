@@ -202,7 +202,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
           padding: 0;
           margin: 0 auto; }
           #page #header div.header-logo nav ul.menu-principal li {
-            float: left;
+            float: right;
             list-style-type: none; }
             #page #header div.header-logo nav ul.menu-principal li a {
               display: inline-block;
@@ -269,7 +269,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
     #page div#content section#servicos h4, #page div#content section#servicos p {
       margin: 15px 0; }
     #page div#content section#servicos h4 {
-      margin-top: 20px; }
+      margin-top: 25px; }
   #page div#content section#fotos-sobre {
     padding: 60px 0;
     background-color: white; }
